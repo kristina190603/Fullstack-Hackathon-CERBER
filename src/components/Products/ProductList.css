@@ -1,0 +1,77 @@
+.header-footer {
+    height: 100vh;
+    margin: 0px;
+  }
+  
+  .container-6 {
+    clip: rect(0, auto, auto, 0);
+    overflow: hidden;
+    position: absolute;
+    height: 100vh;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .container-6_solid {
+    background: rgb(0, 0, 0);
+    top: 0;
+  }
+  
+  .title_wrapper {
+    position: fixed;
+    display: block;
+    margin: auto;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .title_wrapper h1 {
+    text-align: center;
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+  }
+  
+  .container-6_solid .title_wrapper h1 {
+    background: url(https://chakiris.club/uploads/posts/2022-02/1645246809_1-chakiris-club-p-tserber-demon-fentezi-oboi-1.jpg);
+    background-size: 100vw auto;
+    background-position: center;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgb(1, 1, 1);
+  }
+  
+  .container-6_image {
+    background-image: url(https://chakiris.club/uploads/posts/2022-02/1645246809_1-chakiris-club-p-tserber-demon-fentezi-oboi-1.jpg);
+    background-size: 100vw auto;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: 4ch;
+    top: 80vh;
+  }
+  
+  .container-6_image .title_wrapper h1 {
+    color: rgb(0, 0, 0);
+  }
+  
+  @media all and (max-width: 1440px) {
+    .sidebar {
+      width: 80%;
+    }
+  }
+  
+  @media all and (min-width: 1440px) {
+    .sidebar {
+      width: 30%;
+    }
+  }
+  @media all and(max-width: 950px) {
+  }
+  

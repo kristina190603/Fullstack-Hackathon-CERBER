@@ -1,0 +1,61 @@
+.back {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.back {
+  width: 100%;
+  background-size: 50%;
+  background-position: center;
+  background-size: 100%;
+  height: 100%;
+  position: absolute;
+  transition: 50s;
+
+}
+.back:hover{
+    filter: grayscale(100%);
+    transition: 5s;
+}
+.h2error {
+  color: white;
+  text-align: center;
+  line-height: 40vh;
+  letter-spacing: 2vw;
+  font-size: 5vw;
+  display: block;
+  -webkit-transition: width 2s, height 2s, background-color 2s,
+    -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.h2error:hover {
+  color: black;
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+@media(max-width: 1440px) {
+.back{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+}
+@media(max-width: 768px) {
+  .back h2{
+        margin-top: 5%;
+        line-height: 30vh;
+        letter-spacing: 2vw;
+        font-size: 6vw;
+    }
+}
+@media(max-width: 425px) {
+  .back h2{
+        margin-top: 25%;
+        /* line-height: -5vh; */
+        font-size: 7vw; 
+    }
+}

@@ -1,0 +1,33 @@
+.containerFooter a {
+  margin-left: 9%;
+  text-decoration: none;
+  color: white;
+  transition: 2s;
+}
+
+.containerFooter a:hover {
+  color: red;
+  transition: 1s;
+}
+
+.containerFooter p {
+  text-align: center;
+  margin-top: 5%;
+  color: blue;
+}
+@media all and (max-width: 1024px) {
+  .containerFooter a {
+    margin-left: 6%;
+    text-decoration: none;
+    color: white;
+    transition: -7s;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .containerFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

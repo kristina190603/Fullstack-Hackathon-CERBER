@@ -1,0 +1,71 @@
+body{
+  overflow-y: scroll;
+}
+#rule {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.titleRule {
+  
+  text-align: center;
+  font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.666);
+  color: red;
+}
+
+.d-flex {
+  background-color: rgba(0, 0, 0, 0.666);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.d-flex h4 {
+  color: white;
+  width: 50%;
+  text-align: center;
+  font-family: system-ui;
+  font-size: 2rem;
+  line-height: 7vh;
+  transition: 1s;
+}
+.d-flex h4:hover {
+  color: red;
+  transition: 1s;
+}
+.d-flex p {
+  color: white;
+  width: 90%;
+  text-align: center;
+  font-family: system-ui;
+  font-size: 20px;
+}
+.d-flex h5 {
+  color: white;
+  font-size: 2rem;
+  margin-top: 2%;
+  text-align: center;
+  transition: 5s;
+}
+.d-flex h5:hover {
+  color: blue;
+  transition: 2s;
+}
+
+@media (max-width: 1440px) {
+  .d-flex h4 {
+    font-size: 30px;
+  }
+  .d-flex p {
+    font-size: 18 px;
+  }
+  .titleRule{
+    font-size: 50px;
+    font-weight: 600;
+  }
+}

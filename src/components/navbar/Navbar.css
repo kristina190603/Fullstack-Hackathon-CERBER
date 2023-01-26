@@ -1,0 +1,15 @@
+.css-13kaxyk-MuiTypography-root {
+  margin-left: -10% !important;
+}
+
+.logo {
+  width: 212px;
+  height: 250px;
+}
+
+@media all and (max-width: 900px) {
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+}

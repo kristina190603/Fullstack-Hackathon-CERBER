@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.ce-message-bubble {
+  background-color: gray !important;
+}
+.ce-chats-container {
+  background-color: #342f2f !important;
+}
+.ce-chats-container {
+  background-color: #342f2f !important;
+}
+.ce-chat-form-container {
+  background-color: #342f2f !important;
+}
+.ce-chat-list {
+  background-color: #342f2f !important;
+}
+.ce-chat-title {
+  background-color: #342f2f !important;
+}
+.ce-chat-title-container {
+  background-color: #342f2f !important;
+}
+.ce-settings {
+  background-color: #342f2f !important;
+}
+
+.ce-chat-subtitle-text {
+  color: white !important;
+}
+.ce-chat-title-text {
+  color: white !important;
+}
+
+#new-chat-plus-button {
+  background-color: #342f2f !important;
+}
+#ce-send-message-button {
+  background-color: #342f2f !important;
+}
+
+.ce-active-chat-card {
+  background-color: slategray !important;
+}
+.ce-chat-card {
+  background-color: slategray !important;
+}
+
+#ce-feed-container {
+  background-color: #342f2f !important;
+}
+
+.ce-their-message-sender {
+  color: azure !important;
+}
+
+#toolbar {
+  background-color: #342f2f !important;
+}
+
+.ql-blank {
+  background-color: #342f2f !important;
+}
+.ql-editor {
+  background-color: #342f2f !important;
+}
+
+.ql-editor {
+  color: aliceblue !important;
+}
